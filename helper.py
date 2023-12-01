@@ -69,7 +69,6 @@ def most_common_word(selected_user, df):
     temp = df[df['user'] != 'group_notification']
     temp = temp[temp['message'] != '<Media omitted>\n']
     temp = temp[temp['message'] != 'This message was deleted\n']
-    temp = temp[~temp['message'].str.contains('Mohd Umair', case=False, na=False)]
 
     words = []
 
