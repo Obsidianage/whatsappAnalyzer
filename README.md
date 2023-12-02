@@ -1,4 +1,4 @@
-# WhatsApp Chat Analyzer
+# WhatsApp Chat Analyzer (End-To-End Deployment Project)
 
 Welcome to the WhatsApp Chat Analyzer repository! This project allows you to analyze your WhatsApp chat data using a Streamlit web application. The application provides insights into various aspects of your chat, making it an informative and fun tool.
 
@@ -23,6 +23,7 @@ Before you can run the WhatsApp Chat Analyzer, you'll need to follow these insta
     ```bash
     pip install -r requirements.txt
     ```
+    Note : Works fine on python 3.10
 
 ## Usage
 
